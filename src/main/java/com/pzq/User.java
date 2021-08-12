@@ -2,6 +2,7 @@ package com.pzq;
 
 public class User {
     private String userName;
+    private Integer age;
 
     public User() {
     }
@@ -12,5 +13,13 @@ public class User {
 
     public String getUserName() {
         return userName;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
